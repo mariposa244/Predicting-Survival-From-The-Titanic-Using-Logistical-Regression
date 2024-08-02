@@ -9,8 +9,14 @@ the data was taken from this source : https://github.com/datasciencedojo/dataset
 ## Handling Missing Values: The code drops the 'Cabin' column as it has a large number of missing values, and then drops any rows with missing values.
 ## Encoding Categorical Features: The code performs the following encoding techniques:
 1- 'Sex' column is encoded using one-hot encoding, creating two new columns 'Sex_female' and 'Sex_male'.
+
+
 2- 'Ticket' column is encoded using Label Encoding.
+
+
 3- 'Embarked' column is encoded using Label Encoding.
+
+
 ## Dropping Unnecessary Columns: The 'Name' column is dropped as it is not expected to be a useful feature for the prediction task.
 
 
